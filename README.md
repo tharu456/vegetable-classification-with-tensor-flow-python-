@@ -1,5 +1,11 @@
 **Title: Vegetable Classification Model with TensorFlow**
 
-finaltrain.ipynb
+* **finaltrain.ipynb**:
+dataset loading, preprocessing, EDA, model construction, and evaluation.
+Incorporates image enhancement techniques, data visualization, and fine-tuning of the InceptionV3
+model. Utilizes TensorFlow and Keras for efficient deep learning implementation.
 
-This Colab notebook showcases a vegetable classification model built using TensorFlow. The project covers data loading, image processing, and model training using the InceptionV3 architecture. Key features include data exploration, image enhancement, and detailed evaluation metrics like confusion matrices. The notebook provides a practical guide for training and assessing a vegetable classifier, with a focus on visualizations for model interpretation.
+* **finaltestVegDetect.ipynb**:
+Loads a pre-trained InceptionV3 model and applies image preprocessing,
+including color and contrast enhancement. Showcases the model's adaptability to different input
+conditions.
